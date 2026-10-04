@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Typography</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 30px;
+        }
+
+        h1 {
+            font-size: 24px;
+        }
+
+        p {
+            font-size: 14px;
+        }
+
+        @media (min-width: 768px) {
+            h1 {
+                font-size: 32px;
+            }
+
+            p {
+                font-size: 18px;
+            }
+        }
+
+        @media (min-width: 1200px) {
+            h1 {
+                font-size: 40px;
+            }
+
+            p {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Responsive Typography</h1>
+
+    <p>
+        This is a simple responsive webpage.
+        The font size changes depending on the screen size.
+    </p>
+
+    <p>
+        On mobile devices the text is smaller,
+        on tablets it becomes medium,
+        and on desktop screens it becomes larger.
+    </p>
+
+</body>
+</html>
